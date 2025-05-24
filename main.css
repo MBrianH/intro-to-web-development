@@ -11,3 +11,112 @@
 }
 
 /* Write your code below this */
+.navbar {
+width: 100%;
+padding: 26px 60px;
+display: flex;
+justify-content: space-between;
+}
+li {
+ display: inline-block;
+ list-style-type: none;
+ margin: 0 12px;
+}
+.hero {
+background-image: url('images/hero.png');
+height: 500px;
+padding-top: 219px;
+padding-left: 103px;
+}
+h1 {
+font-size: 36px;
+margin-bottom: 15px;	
+}
+button {
+padding: 12px 30px;
+background: #52647E;
+color: white;
+ border-radius: 10px;
+}
+.journey {
+  background: #618379;
+  padding: 57px 0;
+}
+
+h2 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 57px;
+}
+
+.journey-list {
+  display: flex;
+  width: 80%;
+  margin: 0 10%;
+  justify-content: space-between;
+}
+
+.journey-card {
+  width: 30%;
+  background-color: white;
+  padding: 25px;
+  border-radius: 40px;
+  color:gray;
+}
+
+.journey-image {
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: black;
+}
+footer {
+  background: #333232;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+.me{
+padding: 100px;
+text-align:center;
+  font-size: 20px;
+  font-weight: 500;
+}
+.Goals{
+ padding: 98px;
+text-align:center;
+  font-size: 20px;
+  font-weight: 500;
+}
+#h3{
+  font-size:28px;
+}
+/* Navbar link styles */
+.navbar-items a {
+  text-decoration: none;        /* Remove underline */
+  color: black;                 /* Set default color */
+  font-weight: 500;
+  transition: all 0.1s ease;    /* Smooth effect for hover/click */
+}
+
+/* Hover effect */
+.navbar-items a:hover {
+  color:orangered;               /* Change color on hover */
+  transform: scale(1.05);       /* Slight zoom */
+}
+
+/* Active/click effect */
+.navbar-items a:active {
+  color: #314256;               /* Darker on click */
+  transform: scale(0.95);       /* Slight shrink on click */
+}
+html {
+  scroll-behavior: smooth;
+}
